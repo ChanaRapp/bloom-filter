@@ -85,7 +85,7 @@ def __main():
     words.close()    
     print(f'False Positives: {falsePositives}')    
     # Print out the percentage rate of false positives.
-    print(f'False positive percentage rate: {falsePositives/numKeys} = {(falsePositives/numKeys * 100)}%') 
+    print(f'False positive percentage rate: {falsePositives/numKeys} = {(falsePositives/numKeys * 100)}%')
     
 if __name__ == '__main__':
     __main()       
